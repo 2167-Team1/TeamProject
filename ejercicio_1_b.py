@@ -15,8 +15,3 @@ class numComplejo:
     def division(self):
         return self.num1 / self.num2
 
-miCalculo = numComplejo(1+1j, -1+1j)
-print(miCalculo.sumar())
-print(miCalculo.restar())
-print(miCalculo.multiplicacion())
-print(miCalculo.division())
